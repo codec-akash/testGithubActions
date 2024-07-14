@@ -54,9 +54,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
               children: [
                 Column(
                   children: [
-                    Text("data"),
-                    Text("data"),
-                    Text("data"),
+                    Text("data1"),
+                    Text("data2"),
+                    Text("data3"),
                   ],
                 ),
                 Container(
