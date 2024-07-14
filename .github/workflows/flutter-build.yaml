@@ -58,7 +58,7 @@ jobs:
         run: flutter build apk
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@v3
         with:
           name: publish-artifacts
           path: build/app/outputs/flutter-apk/*.apk
