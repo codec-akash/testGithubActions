@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             controller: _tabController,
             labelColor: Colors.white,
             padding: const EdgeInsets.all(6),
-            tabs: [Text("Reward Card"), Text("Payment Cardssss")],
+            tabs: [Text("Reward Card"), Text("Payment Cardss")],
           ),
           Expanded(
             child: TabBarView(
